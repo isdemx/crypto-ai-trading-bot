@@ -1,0 +1,17 @@
+{
+    "name": "ai-crypto-bot",
+    "version": "1.0.0",
+    "description": "AI powered crypto trading bot",
+    "main": "bot/src/bot.js",
+    "scripts": {
+      "start": "node ./bot/src/bot.js"
+    },
+    "author": "Sergy Rush",
+    "license": "ISC",
+    "dependencies": {
+      "node-telegram-bot-api": "^0.50.0",
+      "mongodb": "^4.1.0",
+      "dotenv": "^10.0.0"
+    }
+  }
+  
